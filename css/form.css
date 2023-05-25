@@ -1,0 +1,12 @@
+.js-form {
+    max-width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+    border: 5px 5px 5px ridge black;
+    margin: 20px;
+}
+
+.js-newTask {
+    background-color: rgb(172, 132, 132);
+
+}
