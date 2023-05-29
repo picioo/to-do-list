@@ -8,8 +8,6 @@
 ---
 ---
 
-## This is my first github page I hope it stays as my memories!
- 
  ## Technologies used:
 - HTML
 - JavaScript
