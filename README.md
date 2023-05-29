@@ -3,7 +3,7 @@
 
  # How it's working?
 
-![enter image description here](img/animation.gif)
+![enter image description here](img/to-do-list.gif)
 
 ---
 ---
