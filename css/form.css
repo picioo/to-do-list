@@ -3,31 +3,33 @@
   grid-template-columns: 1fr auto;
   grid-gap: 20px;
 }
-
-@media (max-width: 767px) {
+@media(max-width: 767px) {
   .form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+      grid-template-columns: 1fr;
   }
+  .tasks__header{
+      grid-template-columns: 1fr;
+  }
+  .buttons__button {
+     align-content: center;
+     width: 100%;
+     margin: 10px;
+  }
+  
 }
 
-.form_input {
+.form__input {
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(128, 128, 128);
 }
-
 .form__button {
-  border: none;
   padding: 10px;
-  color: white;
-  background-color: hsl(180, 100%, 25%);
+  background: rgb(0, 104, 128);
+  transition: 1s;
+  color: rgb(255, 255, 255);
+  border: none;
 }
-
 .form__button:hover {
-  background-color: hsl(180, 100%, 30%);
-}
-
-.form__button:active {
-  background-color: hsl(180, 100%, 35%);
+  background-color: rgb(25, 150, 172);
+  transform: scale(1.1);
 }
