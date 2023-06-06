@@ -1,19 +1,21 @@
 html {
   box-sizing: border-box;
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
   box-sizing: inherit;
 }
+
 .body {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  line-height: 1.5; 
-  background-color: rgb(216, 216, 216);
-  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  background-color: #eee;
 }
+
 .container {
   max-width: 900px;
   padding: 20px;
   margin: 0 auto;
 }
-

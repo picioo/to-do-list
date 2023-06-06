@@ -1,16 +1,17 @@
 .buttons__button {
     background-color: white;
     border: none;
-    color: rgb(9, 114, 133);
+    color: teal;
     transition: color 0.3s;
     cursor: pointer;
 }
 
 .button--markAllDoneButton:hover {
-    color: rgb(18, 201, 233);
+    color: hsl(180, 100%, 40%);
 }
+
 .button--markAllDoneButton:active {
-    border: 2px solid rgb(0, 0, 0);
+    color: hsl(180, 100%, 10%);
 }
 
 .button--markAllDoneButton:disabled {
@@ -18,17 +19,17 @@
 }
 
 .button--toggleHideDoneButton:hover {
-    color: rgb(18, 201, 233);
+    color: hsl(180, 100%, 40%);
 }
+
 .button--toggleHideDoneButton:active {
-    border: 2px solid rgb(0, 0, 0);
+    color: hsl(180, 100%, 10%);
 }
+
 @media(max-width: 767px) {
-    
     .buttons__button {
        align-content: center;
        width: 100%;
        margin: 10px;
     }
-    
 }
