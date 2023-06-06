@@ -58,6 +58,7 @@
         });
 
     };
+    
     const renderTasks = () => {
         let htmlString = "";
 
@@ -86,13 +87,14 @@
             buttonsElement.innerHTML = "";
             return;
         };
+
         buttonsElement.innerHTML = `
         <button class=
         "buttons button--toggleHideDoneButton js-toggleHideDoneButton">
         ${hideDoneTasks ? "Pokaż" : "Ukryj"} 
             ukończone
         </button>
-        
+
         <button class=
         "buttons  button--markAllDoneButton js-markAllDoneButton"
         ${tasks.every(({ done }) => done) ? "disabled" : ""}> 
