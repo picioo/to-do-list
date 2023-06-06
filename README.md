@@ -7,7 +7,7 @@
 
  # How it's working?
 
-![enter image description here](img/to-do-list.gif)
+![enter image description here](img/to-do-list-js.gif)
 
 ---
 ---
@@ -20,4 +20,5 @@
 - Normalize
 - GIT
 - Grid
+- Flex
 
