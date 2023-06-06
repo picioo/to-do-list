@@ -81,19 +81,24 @@
 
     const renderButtons = () => {
         const buttonsElement = document.querySelector(".js-buttons");
-        
+
         if (!tasks.length) {
             buttonsElement.innerHTML = "";
             return;
         };
         buttonsElement.innerHTML = `
-        <button class="buttons__button button--toggleHideDoneButton js-toggleHideDoneButton">
-        ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+        <button class=
+        "buttons button--toggleHideDoneButton js-toggleHideDoneButton">
+        ${hideDoneTasks ? "Pokaż" : "Ukryj"} 
+            ukończone
         </button>
-        <button class="buttons__button  button--markAllDoneButton js-markAllDoneButton"
-        ${tasks.every(({ done }) => done) ? "disabled" : ""}> Ukończ wszystkie 
-        </button> `
-            ;
+        
+        <button class=
+        "buttons  button--markAllDoneButton js-markAllDoneButton"
+        ${tasks.every(({ done }) => done) ? "disabled" : ""}> 
+            Ukończ wszystkie 
+        </button> 
+        `;
     };
 
     const bindButtonsEvents = () => {
