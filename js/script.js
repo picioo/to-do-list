@@ -58,7 +58,7 @@
         });
 
     };
-    
+
     const renderTasks = () => {
         let htmlString = "";
 
@@ -111,6 +111,7 @@
             markAllDoneButton.addEventListener("click", markAllTasksDone);
         }
         const toggleHideDoneTasksButton = document.querySelector(".js-toggleHideDoneButton");
+        
         if (toggleHideDoneTasksButton) {
             toggleHideDoneTasksButton.addEventListener("click", toggleHideDoneTasks);
         }
